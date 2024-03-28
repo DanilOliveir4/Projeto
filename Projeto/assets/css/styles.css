@@ -1,0 +1,189 @@
+body {
+    overflow-x: hidden;
+}
+
+#container-1 {
+    background-color: #131A26;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    color: white;
+}
+
+#primeiro-h {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 70px;
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+
+.li-1 {
+
+    display: inline-block;
+    margin: 20px;
+}
+
+#a-1 {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    color: white;
+    border: 2px solid #473BF0;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: #473BF0;
+    color: black;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+#h2-1 {
+    color: white;
+    font-size: 40px;
+    line-height: 20px;
+    padding-left: 15px;
+}
+
+p {
+    color: white;
+    line-height: 20px;
+    max-width: 500px;
+    padding-left: 15px;
+}
+
+#a-2 {
+    padding-left: 1rem;
+    color: green;
+    text-decoration: none;
+}
+
+#box-1 {
+    padding-top: 10rem;
+    padding-left: 18rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+#box-2 {
+    display: flex;
+    justify-content: right;
+    max-width: 150%;
+    padding-right: 4rem;
+
+}
+
+#img-container {
+    width: 541px;
+    height: 383px;
+    top: 205px;
+    left: 815px;
+    max-width: 580px;
+}
+
+#segundo-h {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logos li {
+    margin: 0 10px;
+}
+
+.logos li img {
+    max-height: 50px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.container-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #ECF2F7;
+    height: 100vh;
+}
+
+.caixa-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Titulo{
+    margin: 1rem 1rem 1rem 3rem;
+    
+    font-size: 1.7rem;
+}
+
+.desc{
+    width: 25rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.caixa-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    margin-left: 1rem;
+
+}
+
+.caixa-3{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    
+}
+.assinaturas{
+    gap: 2rem;
+    margin-left: 2rem;
+    background-color: white;
+    width: 24rem;
+    height: 31rem;
+}
+
+.box-5{
+    display: flex;
+    flex-direction: row;
+}
